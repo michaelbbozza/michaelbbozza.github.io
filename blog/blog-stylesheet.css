@@ -10,10 +10,9 @@ h4 {
   text-align: center;
   color:blue;
 }
-#pgraph {
-  color: white;
-  border: 2px solid red;
+body {
+  background-color:black;
 }
-#body {
-  background-color: brown;
+p {
+  color:white;
 }
