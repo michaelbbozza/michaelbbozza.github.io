@@ -24,6 +24,7 @@ a {
 h3 {
   color:white;
   text-align: right;
+  text-decoration: underline;
 }
 a:hover {
   text-decoration: none;
