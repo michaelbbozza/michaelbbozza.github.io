@@ -25,3 +25,9 @@ h3 {
   color:white;
   text-align: right;
 }
+a:hover {
+  text-decoration: none;
+  }
+a:visited {
+  color:purple;
+}
