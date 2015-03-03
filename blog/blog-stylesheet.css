@@ -1,14 +1,14 @@
 h1 {
   text-align: center;
-  color:white;
+  color:red;
 }
 h2 {
   text-align: center;
-  color:blue;
+  color:lightgray;
 }
 h4 {
   text-align: center;
-  color:red;
+  color:blue;
 }
 p {
   color: white
