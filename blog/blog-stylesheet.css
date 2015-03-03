@@ -16,8 +16,7 @@ body {
 p {
   color:white;
 }
-#list {
-  margin-right: auto;
-  margin-left: auto;
+a {
+  margin-right: 10%;
   color:white;
 }
