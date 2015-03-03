@@ -18,7 +18,7 @@ p {
 }
 a {
   color:white;
-  text-align: right;
+  float: right;
 }
 h3 {
   color:white;
