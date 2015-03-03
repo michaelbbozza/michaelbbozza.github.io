@@ -13,3 +13,7 @@ h4 {
 main {
   background-color: black;
 }
+section {
+  color: white
+  border: 2px solid red;
+}
