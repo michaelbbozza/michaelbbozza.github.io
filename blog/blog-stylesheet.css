@@ -17,6 +17,7 @@ p {
   color:white;
 }
 ol {
-  margin-right: 10%;
+  margin-right: auto;
+  margin-left: auto;
   color:white;
 }
