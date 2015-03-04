@@ -17,4 +17,6 @@ img {
   float: right;
   margin-right: auto;
   margin-left: auto;
+  height: 100px;
+  widht: 100px;
 }
