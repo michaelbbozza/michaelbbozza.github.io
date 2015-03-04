@@ -1,3 +1,14 @@
 body {
-  color:#ff0dff;
+  background-color:#ff0dff;
+}
+p {
+  color: black;
+  font-family: Verdana;
+  font-size: 14px;
+}
+h1 {
+  font-size: 20px;
+  font-family: cursive, serif;
+  color: black;
+  border: 2px solid black;
 }
