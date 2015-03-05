@@ -9,3 +9,9 @@ p {
 a:hover {
   text-decoration: none;
 }
+body {
+  background-color: lightgrey;
+}
+ul {
+  font-size: 14px;
+}
