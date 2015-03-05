@@ -7,5 +7,13 @@ h1 {
   background-color: black;
   font-family: Times, serif;
   font-style: italic;
+  padding: 5%;
 }
-
+p {
+  font-weight: bold;
+  font-size: 30px;
+  color:blue;
+}
+body {
+  background-color:black;
+}
