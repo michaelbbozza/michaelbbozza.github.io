@@ -2,10 +2,14 @@ h1 {
   font-size: 30px;
   text-align: center;
   font-family: cursive, Courier;
+  font-weight: bolder;
+  border: 2px dashed black;
+  padding: 2%;
 }
 p {
   font-size: 16px;
   text-align: justify;
+  font-weight: bold;
 }
 a:hover {
   text-decoration: none;
