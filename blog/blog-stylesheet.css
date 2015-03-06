@@ -32,3 +32,6 @@ a:hover {
 a:visited {
   color:purple;
 }
+span {
+  text-align: center;
+}
