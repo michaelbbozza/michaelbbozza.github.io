@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+<title>Arrays and Hashes</title>
+<meta charset="UTF-8">
+<link type="text/css" rel="stylesheet" href="blog-stylesheet.css">
+</head>
+
+<body>
+  <h1>Arrays and Hashes</h1>
+  <h2>Arrays</h2>
+  <h4>March 11, 2015</h4>
+  <p>
+    Arrays are lists of objects that are indexed by integers. In English, this means that each object specified in the list is recognized by a number, beginning with 0. For example, if you have 3 objects in your list, the numbering is "0, 1, and 2", NOT your traditional "1,2,3".
+  </p>
+  <p>
+    To define an array, you would use the code "'array'=[obj,obj,obj]", where 'array' refers to the name you want to assign your list and each "obj" refers to what you have in your list. These objects can be integers (whole numbers), strings (words enclosed in "quotation marks"), or floats (numbers that include a decimal point--such as 3.1 or even 5.0).
+  </p>
+  <h2>Hashes</h2>
+  <p>
+    Hashes are very similar to Arrays. Hashes are like a dictionary of keys that have a value appointed to them. To translate, you define a key--or object (let's say "Steve")--and set the value for that key (we'll say the value is "Dog"). This means that whenever you run the command with the parameter "Steve", you will receive "Dog" as the answer because that is the "value" of the name "Steve". Confused still? Dont worry. I will show you some examples.
+  </p>
+  <p>
+    So what was all of that alien talk? Basically, hashes are defined with a curly brace {} instead of the box [] like an array. One way to create a hash is:<br>
+    pets = {"Steve"=>"Dog", "Jim"=>"snake"}
+    <br>
+  </p>
+  <p>
+    To run the hash you simply call the hash (pets) and give it the parameter of either "Steve", "Jim", or both! To do this, you would type:<br>
+    pets["Steve"] <br>
+    pets["Jim"] <br>
+    pets["Steve","Jim"]<br>
+    <br>
+    You can use the "puts" command in front of your hash to eliminate the quotes around the value returned.
+  </p>
+  <p>
+    In short, both strategies are very good to use. To be more specific about an object, use a hash because you can assign a specific value to a specific object (like "Mike" to "Awesome"). An array is specific, but does not have any value associated with your object, making it less specific than a hash. If you type "array=["Mike","Joe","Jimmy"]", then those are your objects but do not have any specific values to give you when called upon, whereas hashes provide that value. Depending on the type of data, depends on whether you would use an array or a hash.
+  </p>
+  <p>
+    I hope you've enjoyed this blog! Please send me any comments!
+  </p>
+</body>
+</html>
