@@ -14,9 +14,20 @@
       Cycle. Sounds simple, but when do you use it and how do you implement it? That is what I am here for. The method "cycle" is pretty much what you are most likely thinking it is--it <b>cycles</b> the information in the array (or list). <br>For example: <br>
       <h3>array = ["Me", "Myself", "Irene"]</h3><br>
       <h5>This creates and defines the array and its values</h5><br>
-      <h3>array.cycle</h3>
+      <h3>array.cycle {|x| puts x}</h3>
       <h5>This continuously outputs "Me", "Myself", "Irene", "Me", "Myself", "Irene"...</h5><br>
-      <h3>array.cycle(2)</h3>
+      <h3>array.cycle(2) {|x| puts x}</h3>
       <h5>This outputs the array <span id="text">TWO</span> times. The amount of outputs is specified in the parentheses.<br> "Me", "Myself", "Irene", "Me", "Myself", "Irene" </h5><br>
-      <br>
+      </p>
+    <p>
+      You may be wondering what the curly brackets after "cycle" and "cycle(2)" are. The "x" represents the variable that you are using in the array. "Puts x" tells the program that for every "x" value (which is all the names in the array), it will cycle through the values and put them on to the screen, until the cycle is finished (if specified of course). This method will produce the word "nil" to show when the program has completed running.
+    </p>
+    <p>
+      The "cycle" method can be used to display an array multiple times. This is more commonly used if you want to print out all items in an array in order--such as showing the days of the week or numbers in a month. The "cycle" method is normally used along with the "next" method, to specify that you want the "next" value of the array, then "cycle" back to the beginning. Such as if you cycle the days of the week and reach Saturday, you want to go back to Sunday and start all over again. The "cycle" method allows you to do this. It is similar to the "Repeat All" option on a music player. It will continue to repeat the process as many times as you specify.
+    </p>
+    <p>
+      I hope this has been some help in understanding the "cycle" method. Please feel free to contact me with any feedback!
+    </p>
+  </body>
+  </html>
 
