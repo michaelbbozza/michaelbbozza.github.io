@@ -38,10 +38,12 @@
     puts "Hello" + @name + "."
     <br>
     end
+    <br>
+    end
   </code>
   </div>
   <p>
-    This example shows the class "Node" with the method "initialize" (or "init") with the argument of "val". @value = val refers to the "instance variable" that is going to be used. At the bottom, it shows "p Node.new(1)" and "p Node.new(2)". This means that it will show the numbers "1" and "2" on two different lines. (Note: The code inside the "initialize" method is just simply telling the program to show the val that is defined, which is 1 and 2. "Node.new" refers to a new version of the class that will be run, and requires a "val" to be entered, which is why the full string is "Node.new(1)" and "Node.new(2)". "P" simply tells it to print the answer to the window and create a new line after each version is ran.)
+    This example shows the class "Name" with the method "initialize" taking the argument "name". "@name" is the instance variable being used for anything that is associated with "name". "@name = gets.chomp" refers to acquiring the user's name that they input themselves. The fourth line tells the program to print "Hello" and then the user's name. The first "end" closes the method "initialize" and the second "end" closes the class "Name". Simply put, when ran, this program will ask you for your name, and respond with "Hello (your name)."
   </p>
   <p>
     In short:<br>
