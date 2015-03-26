@@ -13,16 +13,19 @@
   <p>
     Class is now in session!--or at least in Ruby. Classes can be used to group together multiple methods, or "bundle" them together. I will show examples on this later on in this blog to help illustrate what I mean. Classes are used primarily to organize the data and make programming large amounts of code a lot simpler than constantly going through method by method and changing everything, sometimes repeating the same code. (Note: #1 Rule: D.R.Y. Don't Repeat Yourself) Methods with no Class implemented generally rely on themselves, rather than the whole block. Methods are great, until you want the method to work on multiple objects, causing you to write a million "if/else" or "case" or other loop statements. This is where using a Class can really be helpful. It can reduce the amount of loops and conditionals in your code, as well as work for multiple items, without retyping the same code.
   </p>
+  <div id="code">
   <code>
     class Name
     <br>
     end
   </code>
+  </div>
   <p>
     After creating your Class, you can define your methods inside the Class structure. "Initialize" should be the first method you create. This method should be defined to take an argument (or number of arguments) that can later be called (or initialized) and run your code within the Class. Let's say you create the method to take 3 arguments, but these arguments will have different values for different things. This is when you will create "Instance Variables". Instance variables are used when you want to create a different results for a different object. For you gamers out there, let's say one of your arguments is "health" but you have 10 characters with different health limits (1 is 150 HP, another is 100 HP, and so on).
     This is when you would create an Instance Variable using @ (at symbol) and make it equal to "health". <br>Example: @health = health<br>
     This will allow you to assign different values of "health" to different characters.
   </p>
+  <div id="code">
   <code>
     class Name
     <br>
@@ -35,6 +38,8 @@
     puts "Hello" + @name + "."
     <br>
     end
+  </code>
+  </div>
   <p>
     This example shows the class "Node" with the method "initialize" (or "init") with the argument of "val". @value = val refers to the "instance variable" that is going to be used. At the bottom, it shows "p Node.new(1)" and "p Node.new(2)". This means that it will show the numbers "1" and "2" on two different lines. (Note: The code inside the "initialize" method is just simply telling the program to show the val that is defined, which is 1 and 2. "Node.new" refers to a new version of the class that will be run, and requires a "val" to be entered, which is why the full string is "Node.new(1)" and "Node.new(2)". "P" simply tells it to print the answer to the window and create a new line after each version is ran.)
   </p>
