@@ -5,11 +5,12 @@ body {
 
 .header {
   background-image: url("https://cask.scotch.io/2013/11/git-cheat-sheet.jpg");
+  background-size: 15%;
 }
 
 h1 {
   text-align: center;
-  color: forestgreen;
+  color: darkgreen;
   font-style: bold;
   font-size: 80px;
   text-decoration: underline;
