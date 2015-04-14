@@ -6,6 +6,7 @@ body {
 .header {
   background-image: url("https://cask.scotch.io/2013/11/git-cheat-sheet.jpg");
   background-size: 15%;
+  background-position: top center;
 }
 
 h1 {
