@@ -33,3 +33,6 @@ a:hover {
   text-decoration: underline;
   background-color: white;
 }
+a {
+  text-decoration: none;
+}
